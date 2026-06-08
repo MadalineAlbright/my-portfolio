@@ -24,7 +24,7 @@ export default async function handler(req, res) {
       subject: `New message from ${name}`,
       reply_to: email,
       html: `
-        <h2>New Message</h2>
+        <h2>[Portfolio Website] New Inquiry</h2>
         <p><b>Name:</b> ${name}</p>
         <p><b>Email:</b> ${email}</p>
         <p><b>Message:</b><br>${message}</p>
