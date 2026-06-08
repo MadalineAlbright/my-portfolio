@@ -19,8 +19,8 @@ export default async function handler(req, res) {
     }
 
     const result = await resend.emails.send({
-      from: "Portfolio <onboarding@resend.dev>",
-      to: "YOUR_EMAIL@gmail.com",
+      from: "Contact Form <onboarding@resend.dev>",
+      to: "madalinealbright2@gmail.com",
       subject: `New message from ${name}`,
       reply_to: email,
       html: `
